@@ -1,10 +1,7 @@
 <template>
-  <h1>hello World
-  </h1>
+  <h1>hello World</h1>
 </template>
 
-<script lang="ts" setup name="">
-
-</script>
+<script lang="ts" setup name=""></script>
 
 <style scoped></style>
