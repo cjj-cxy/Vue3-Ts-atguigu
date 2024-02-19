@@ -16,3 +16,17 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
    1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
    2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+
+
+<!-- 
+git 创建流程
+1. 现在本地仓库使用git init命令创建本地仓库
+2. 在gitee 或 github上创建云端仓库
+3. 使用git remote add origin git@github.com:cjj-cxy/Vue3-Ts-atguigu.git在本地关联云端仓库
+4. 可以使用git remote set-url origin git@github.com:cjj-cxy/Vue3-Ts-atguigu.git修改云端关联仓库地址
+
+git 提交命令
+git add .
+git commit -m ' XXX '
+git push ｜ git push -u origin main
+ -->

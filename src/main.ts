@@ -4,13 +4,10 @@ import App from './App.vue'
 
 createApp(App).mount('#app')
 
-const fun = () => {
-  console.log('husky test!!')
-}
+// const fun = () => {
+//   console.log('husky test!!')
+// }
 
-
-const fun1 = () => 
-{
-
-    console.log('husky test2!!')
-  }
+// const fun1 = () => {
+//   console.log('husky test2!!')
+// }
