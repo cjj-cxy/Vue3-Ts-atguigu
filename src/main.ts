@@ -12,6 +12,9 @@ app.use(ElementPlus, {
 })
 
 // 获取环境变量
-console.log(import.meta.env)
+// console.log(import.meta.env)
 
+import 'virtual:svg-icons-register'
+import SvgIcon from '@/components/SvgIcon/index.vue';
+app.component('SvgIcon', SvgIcon)
 app.mount('#app')

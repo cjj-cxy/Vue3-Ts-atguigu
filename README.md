@@ -28,4 +28,9 @@ git 提交命令
 git add .
 git commit -m ' XXX '
 git push ｜ git push -u origin main
+
+若改git push时出现无法提交的情况
+可以尝试执行
+git config --global --unset http.proxy
+git config --global --unset https.proxy
  -->
