@@ -17,8 +17,7 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
    2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
 
-
-<!-- 
+<!--
 git 创建流程
 1. 现在本地仓库使用git init命令创建本地仓库
 2. 在gitee 或 github上创建云端仓库
