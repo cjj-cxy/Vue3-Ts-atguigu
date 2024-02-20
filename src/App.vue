@@ -1,8 +1,27 @@
 <template>
-  <h1>hello World</h1>
-  <svg-icon name="plane" color="green" width="300px" height="150px"></svg-icon>
+  <div>
+    <h1>测试axios二次封装</h1>
+  </div>
 </template>
 
-<script lang="ts" setup name=""></script>
+<script lang="ts" setup name="">
+import { onMounted } from 'vue';
+import request from '@/utils/request';
 
-<style scoped></style>
+onMounted(() => {
+  request({
+    url:'/user/login',
+    method:'post',
+  data:{
+    username:'admin',
+    password:'111111'
+  }
+  }).then(res => {
+    console.log(res)
+  })
+})
+</script>
+
+<style scoped>
+
+</style>
