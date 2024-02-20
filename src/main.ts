@@ -20,7 +20,7 @@ app.use(ElementPlus, {
   locale: zhCn, // element-plus国际化的配置
 })
 
-app.use(router);
+app.use(router)
 // 引入全局组件
 // import SvgIcon from '@/components/SvgIcon/index.vue'
 // app.component('SvgIcon', SvgIcon)
