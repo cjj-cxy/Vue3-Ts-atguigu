@@ -9,8 +9,8 @@ export default {
   // 必须叫install
   install(app: any) {
     Object.keys(allGloablComponent).forEach((key) => {
-        // 注册全局组件
-        app.component(key, allGloablComponent[key]);
-      });
+      // 注册全局组件
+      app.component(key, allGloablComponent[key])
+    })
   },
 }

@@ -1,6 +1,9 @@
 <template>
     <div>
-        <router-view></router-view>
+        <h1>
+            404页面丢失了
+        </h1>
+        <svg-icon name="plane"></svg-icon>
     </div>
 </template>
 
